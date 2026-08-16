@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>User Form</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>USER FORM</h1>
+        </header>
+
+        <form autocomplete="on" id="userForm">
+            <fieldset>
+                <legend>Username</legend>
+                <input type="text" maxlength="20" required placeholder="Username" id="username">
+            </fieldset>
+
+            <fieldset>
+                <legend>Password</legend>
+                <input type="password" maxlength="20" required placeholder="Password" id="password">
+            </fieldset>
+
+            <fieldset>
+                <legend>E-Mail</legend>
+                <input type="email" maxlength="30" required placeholder="E-Mail" id="email"> 
+            </fieldset>
+
+            <button class="submit-btn">Submit</button>
+        </form>
+
+        <script src="app.js"></script>
+    </body>
+</html>
