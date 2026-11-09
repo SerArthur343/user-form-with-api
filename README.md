@@ -1,5 +1,5 @@
 # user-form-with-api
-A full-stack web application that collects user information through a frontend form and stores the submitted data in a MongoDB Atlas database using a Node.js and Express.js backend.
+A full-stack web application that collects user information through a frontend form and stores the submitted data in a MongoDB Atlas database using Node.js and Express.js in the backend.
 
 ## Features
 - User information submission through a frontend form
